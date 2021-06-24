@@ -42,7 +42,7 @@ function unlock(locker)
 	}
 	else
 	{
-		window.location = "index.HTML";
+		window.location = "index.html";
 	}
 
 }
@@ -59,7 +59,7 @@ function deleteThisLocker()
     // Inform user that selected locker is deleted
     alert("Deleted Locker");
     // redirecting to main page
-		window.location = "index.HTML";
+		window.location = "index.html";
 	}
 }
 // TODO: Write the function lockLocker
@@ -87,7 +87,7 @@ function lockLocker()
       // Inform user that locker is now locked
 			alert("Locked Locker");
       // redirecting back to main page
-			window.location = "index.HTML";
+			window.location = "index.html";
 		}
 		else
 		{
@@ -116,7 +116,7 @@ function closeLocker()
     // Informing User
 		alert("Closing locker without locking");
     // redirecting to main page
-		window.location = "index.HTML";
+		window.location = "index.html";
 	}
 }
 // Retrieve the stored index from local storage
